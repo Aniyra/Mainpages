@@ -1,0 +1,84 @@
+﻿<local:MyCard Title="MC 模组 与 光影" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="点击下方按钮可前往获取 模组 与 光影资源" />
+        <local:MyButton Margin="0,4,0,10" Width="250" Height="35"
+                    Text="前往 MC 模组资源站 I" EventType="打开网页" EventData="https://www.mcmod.cn/" />
+        <local:MyButton Margin="0,4,0,10" Width="250" Height="35"
+                    Text="前往 MC 模组资源站 II" EventType="打开网页" EventData="https://modrinth.com/mods" />
+        <local:MyButton Margin="0,4,0,10" Width="250" Height="35"
+                    Text="前往 MC 光影资源站" EventType="打开网页" EventData="https://modrinth.com/shaders" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="实时天气" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="点击 下方按钮 可查看实时天气" />
+        <local:MyButton Margin="0,4,0,10" Width="250" Height="35"
+                    Text="查看 实时天气" EventType="打开网页" EventData="https://weather.cma.cn/web/weather/" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="今日大事" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="点击 下方按钮 可查看 今日大事" />
+        <local:MyButton Margin="0,4,0,10" Width="250" Height="35"
+                    Text="查看 今日国内大事" EventType="打开网页" EventData="https://news.cctv.com/china/?spm=C94212.P4YnMod9m2uD.EWZW7h07k3Vs.2" />
+        <local:MyButton Margin="0,4,0,10" Width="250" Height="35"
+                    Text="查看 今日国际大事" EventType="打开网页" EventData="https://news.cctv.com/world/?spm=C94212.PBZrLs0D62ld.EqC6QDfEmmsv.3" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="实时时间 校准" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="时间不准了？" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="点击下方按钮可校准时间（其实是检查时间是否准确）" />
+        <local:MyButton Margin="0,4,0,10" Width="250" Height="35"
+                    Text="前往校准时间" EventType="打开网页" EventData="https://time.is" />
+    </StackPanel>
+</local:MyCard>
+<local:MyCard Title="PCL 隐藏主题解锁教程" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="玄素黑:疯狂点击此主题选项按钮直到玄素黑字样彻底出现即可。"
+/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="滑稽彩:日期调到4月1日后点击启动游戏(不能点击投降) "
+/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="铁杆粉:启动PCL99次，可以日积月累，也可以刷！"
+/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="神秘紫:下载群文件中的dev 0.4.4->更多->开源许可->????"
+/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="欧皇彩:更多->百宝箱->今日人品->人品值100(可调整系统日期来重新抽取)"
+/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="秋仪金:赞助23.33档位"
+/>
+
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="活跃橙:鼠标停留在主题选项看提示(还可以在LTW3服务器里购买)"
+/>
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="跳票红:正版登录后启动游戏(可用某宝的黑卡)"
+/>
+
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="极客蓝:更多->关于与鸣谢->赞助者->复制识别码->输入识别码->输入PuzzleUnlock-你的识别码后4位(加杠)"
+/>
+
+
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                    Text="自定义:解锁5个隐藏主题"
+/>
+        <local:MyButton Margin="0,4,0,10" Width="250" Height="35"
+                    Text="前往 原视频 " EventType="打开网页" EventData="https://www.bilibili.com/video/BV1mL411b7nm?vd_source=85051bd45516814de0806f95b505c61e" />
+
+    </StackPanel>
+</local:MyCard>
